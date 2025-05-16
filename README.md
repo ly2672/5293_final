@@ -10,7 +10,7 @@ OPENAI_API_KEY = xxx
 and install openai in your environment by running this in your terminal:
 
 ```
-pip install openai
+pip install -r requirements.txt
 ```
 
 how to run this: 
