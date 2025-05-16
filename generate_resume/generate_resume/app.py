@@ -22,7 +22,7 @@ if input_mode == "Freeform (text box)":
         with st.spinner("Generating cover letter..."):
             cover_letter = generate_cover_letter(structured, job_title, company)
         st.subheader("📬 Cover Letter")
-        st.text(cover_letter)
+        st.markdown(f"```\n{cover_letter}\n```")
 else:
     with st.form("structured_form"):
         name = st.text_input("Full Name")
@@ -65,4 +65,4 @@ else:
             structured = build_structured_data(form_data)
             resume = generate_resume(structured)
             st.subheader("🎯 Generated Resume")
-            st.text(resume)
+            st.markdown(f"```\n{resume}\n```")
