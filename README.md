@@ -1,4 +1,6 @@
 # 5293_final
+before you read this, please prepare two api keys: Qwen api key and Openai api key. add it to .env file in the folder, store Qwen api key in DASHSCHOPE_API_KEY, and store Openai api key in OPENAI_API_KEY
+
 how to run this: Option 1: To check, change, debug, or just test the code: First git clone this repository in your local machine. Open the terminal and run this: cd generate_resume
 
 Then run: python main.py
